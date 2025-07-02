@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Sorteio da Sorte</title>
 </head>
+
 <body>
-<img src="section/dado.png" alt="imagem-dado">
+        <main>
+            <div class="container">
+                <img src="img/dado.png" alt="imagem-dado">
+                <h1>Sortei seu Número</h1>
+            </div>
+            <p>Sortear um numero: </p>
+            <section>
+                <input type="number" placeholder="de:  ">
+                <input type="number" placeholder="até: ">
+            </section>
+            <div class="container inf">
+                <button id="sorteio" onclick="sorteio()">Sortear</button>
+            </div>
+        </main>
+
 </body>
+<script src="settings/script.js"></script>
+
 </html>
