@@ -10,17 +10,17 @@
 
 <body>
         <main>
-            <div class="container">
+            <div class="container" id="principal">
                 <img src="img/dado.png" alt="imagem-dado">
                 <h1>Sortei seu Número</h1>
             </div>
             <p>Sortear um numero: </p>
             <section>
-                <input type="number" placeholder="de:  ">
-                <input type="number" placeholder="até: ">
+                <input placeholder="de:" class="min" type="number" >
+                <input placeholder="até:" class="max" type="number">
             </section>
             <div class="container inf">
-                <button id="sorteio" onclick="sorteio()">Sortear</button>
+                <button onclick="sorteio()" id="sorteio">Sortear</button>
             </div>
         </main>
 
