@@ -3,5 +3,5 @@ function sorteio() {
   const max = Math.floor(document.querySelector(".max").value);
 
   let number = Math.floor(Math.random() * (max - min + 1)) + min;
-  console.log(number);
+  alert(number);
 }
